@@ -60,7 +60,7 @@ st.markdown("""
         margin: 1.5rem 0 1rem 0;
     }
     .insight-box {
-        background: #e8f4fd;
+        background: #1a1a2e;
         border-left: 4px solid #2196F3;
         padding: 0.8rem 1rem;
         border-radius: 4px;
@@ -167,7 +167,7 @@ def run_markov(aqi_values, dates_list):
 # ============================================================
 
 # Title
-st.markdown('<div class="main-title">🌫️ Mumbai AQI Fluctuation</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">Mumbai AQI Fluctuation</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Autoregressive Stochastic Model — ARIMA + Markov Chain Analysis</div>', unsafe_allow_html=True)
 
 # Load data
@@ -178,8 +178,6 @@ aqi_dates_list = aqi_dates.tolist()  # hashable for st.cache_data
 
 # ── Sidebar ───────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mumbai_Skyline_at_Night.jpg/320px-Mumbai_Skyline_at_Night.jpg",
-             use_container_width=True)
     st.markdown("### ⚙️ Model Settings")
 
     forecast_days = st.slider("Forecast horizon (days)", 7, 30, 7)
