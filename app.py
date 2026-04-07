@@ -24,7 +24,6 @@ warnings.filterwarnings('ignore')
 # ── Page config ───────────────────────────────────────────────
 st.set_page_config(
     page_title="Mumbai AQI — Stochastic Model",
-    page_icon="🌫️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -35,13 +34,13 @@ st.markdown("""
     .main-title {
         font-size: 2.2rem;
         font-weight: 700;
-        color: #1a1a2e;
+        color: #D3D3D3;
         text-align: center;
         padding: 1rem 0 0.2rem 0;
     }
     .sub-title {
         font-size: 1rem;
-        color: #555;
+        color: #D3D3D3;
         text-align: center;
         margin-bottom: 2rem;
     }
@@ -55,7 +54,7 @@ st.markdown("""
     .section-header {
         font-size: 1.3rem;
         font-weight: 600;
-        color: #1a1a2e;
+        color: #D3D3D3;
         border-bottom: 2px solid #4e79a7;
         padding-bottom: 0.3rem;
         margin: 1.5rem 0 1rem 0;
@@ -69,7 +68,7 @@ st.markdown("""
         font-size: 0.9rem;
     }
     .warning-box {
-        background: #fff8e1;
+        background: #1a1a2e;
         border-left: 4px solid #FFC107;
         padding: 0.8rem 1rem;
         border-radius: 4px;
