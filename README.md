@@ -15,7 +15,7 @@ as a stochastic time series using ARIMA and Markov Chain analysis.
 Source: CPCB via GitHub (cp099/India-Air-Quality-Dataset) + Kaggle
 
 ## Live App
-[View on Streamlit](https://your-app-link.streamlit.app)
+[View on Streamlit](https://mumbaiaqimodel-6vghqbhzfmumiqgx2kfdo8.streamlit.app/)
 
 ## Tech Stack
 Python · Streamlit · Plotly · Statsmodels · Pandas · SciPy
